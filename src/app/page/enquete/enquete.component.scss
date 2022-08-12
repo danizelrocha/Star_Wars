@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: -3px;
+    padding: 0;
+}
+
+.main{
+   
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-right: 100px;
+}
+  
+form {
+    margin-left: -100px;
+    padding:40px 0px;
+    width: 90%; 
+}
+
+form label .form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+label {
+    color: #F5D41B;
+    border:black;
+    background: black;
+}
+
+legend {
+    color: #F5D41B;
+    border: black;
+    background: black;
+}
+   
+.input-padrao{
+    display: block;
+    margin: 0 0 14px;
+    padding: 10px 25px;
+    width: 70%;
+}
+
+.center-enviar{
+    align-items: center;
+    padding-left: -200%;
+}
+
+.enviar {
+    text-decoration: none;
+    width: 60%; 
+    margin: 0 100px;
+    color: #F5D41B;
+    font-size: 18px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+    border-radius: 5px;
+    background: black;
+}
+
+.enviar:hover {
+    background: #81100c;
+    transform: scale(1.2);
+}

@@ -1,0 +1,53 @@
+*{ 
+    box-sizing: border-box;
+    margin: -3px;
+    padding: 0px;
+}
+
+
+body {
+    position: relative;
+    background-image: url("/assets/fundo/star.jpg");
+    text-align: center;
+    padding: 56px;
+ 
+}
+
+h1 {
+    color: #F5D41B !important;
+    transform: perspective(300px) rotateX(25deg);
+    text-align: justify;
+    padding: 50px;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+P {
+    color: #F5D41B !important;
+    transform: perspective(300px) rotateX(25deg);
+    text-align: justify;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.volta {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #F5D41B;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.volta:hover {
+    opacity: 0.5;
+}
+
+.copyright {
+    color: #F5D41B;
+    text-align: center;
+    margin-bottom: auto;
+}

@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+/*** NAVI BAR ***/
+
+.logo{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+
+a{
+    color: #FCFCFE;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+a:hover{
+    opacity: 0.5;
+    background-color: #845151;
+    margin-bottom: auto;
+    border-radius: 4px;
+ 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    font-family: system-ui, apple-system, Helvetica, Arial, sans-serif;
+    background: #4E0000;
+    height: 8vh;
+    position: fixed;
+    width: 102%;
+    margin: -14px;
+}
+
+.nav-list{
+display: inline;
+display: flex;
+list-style: none;
+height: 30px;
+}
+
+.nav-list li{
+    letter-spacing: 2px;
+    margin-left: 22px;
+}
