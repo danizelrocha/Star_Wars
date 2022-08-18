@@ -1,9 +1,10 @@
-footer {
-    text-align: center;
-    background-color: #1A1C22;
-    background-color: #858d31;
+.footer {
+text-align: center;
+justify-content: space-between;
+width: 100%;
+margin: auto;
+background-image: url("/assets/fundo/star.jpg");
+color: #F5D41B !important;
 }
 
-.copyright {
-    color: #1A1C22;
-}
+

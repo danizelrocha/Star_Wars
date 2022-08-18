@@ -1,21 +1,13 @@
-* {
-    box-sizing: border-box;
-    margin: -3px;
-    padding: 0;
-}
 
 .main{
-   
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    margin-right: 100px;
+    background-image: url("/assets/fundo/star.jpg");   
 }
   
 form {
-    margin-left: -100px;
-    padding:40px 0px;
-    width: 90%; 
+
+    margin-left:auto;
+    padding:100px 0px;
+    width: 80%; 
 }
 
 form label .form legend {
@@ -39,19 +31,17 @@ legend {
 .input-padrao{
     display: block;
     margin: 0 0 14px;
-    padding: 10px 25px;
-    width: 70%;
+    padding: 9px 16px;
+    width: 60%;
 }
 
 .center-enviar{
     align-items: center;
-    padding-left: -200%;
 }
 
 .enviar {
     text-decoration: none;
     width: 60%; 
-    margin: 0 100px;
     color: #F5D41B;
     font-size: 18px;
     border: none;

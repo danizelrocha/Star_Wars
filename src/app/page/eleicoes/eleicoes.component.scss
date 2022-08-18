@@ -1,14 +1,8 @@
-*{ 
-    box-sizing: border-box;
-    margin: -3px;
-    padding: 0px;
-}
-
 .main {
-    background-image: url("/assets/fundo/star.jpg");
+
+    background-size: cover;
     margin-bottom: auto;
     display: flex;
-    transition: 'background-color' 300ms;
 }
 
 .leftside {
@@ -24,12 +18,12 @@
 
 .images {
     margin-left: 80px;
-    padding: 10px;
+    //padding: 10px;
     height: 200px;
 }
 
 .images img {
-    padding: 23px;
+    padding: 23px
 }
 
 .images:first-child {
@@ -75,6 +69,9 @@
 .inst-text p {
     color: #F5D41B !important;
     text-align: justify;
+    font-size: 17px;
+    border-right:black;
+    background: black;
 }
 
 

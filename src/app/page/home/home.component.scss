@@ -4,13 +4,9 @@
     padding: 0px;
 }
 
-.body {
-    background-image: url("/assets/fundo/star.jpg");
-    width: auto;
-}
-
 .main {
-    
+    background-image: url("/assets/fundo/star.jpg");   
+    width: auto;
     margin-bottom: auto;
     display: flex;
     transition: 'background-color' 300ms;
@@ -80,7 +76,7 @@
 }
 
 .inst-text p {
-    color: #FCFCFE !important;
+    color: #F5D41B !important;
     transform: perspective(300px) rotateX(25deg);
     text-align: justify;
     font-size: 16px;
@@ -89,5 +85,5 @@
 }
 
 strong {
-    color: #F5D41B
+    color: #F5D41B;
 }
